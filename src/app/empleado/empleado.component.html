@@ -1,0 +1,20 @@
+<p>Nombre del Empleado: {{nombre}} </p>
+<br/>
+<p>Apellido del Empleado: {{apellido}} </p>
+<br/>
+<!--<p>Edad del Empleado: {{getEdad()}} </p> -->
+<p>Edad del Empleado: {{edad<18 ? "Menor":"Mayor"}} </p>
+<br/>
+<p>Empresa del Empleado: {{empresa.value}} </p>
+<!--<p>Empresa del Empleado: {{empresa.value}} </p> -->
+<br/>
+ 
+
+<!--Introduce la empresa: <input type="text" #empresa  />-->
+<br/>
+<!--<input type="button" value="Pulsa" (click)= "llamaEmpresa(empresa.value)" />-->
+
+
+<!-- Quitamos el botón y la función llamaEmpresa-->
+    Introduce la empresa: <input type="text" #empresa (keyup)="0"/>
+
