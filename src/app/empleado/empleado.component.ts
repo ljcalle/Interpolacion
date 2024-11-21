@@ -15,7 +15,7 @@ export class EmpleadoComponent {
   //edad = 18 
   edad = 18
 
-  empresa = ""
+  //empresa = ""
 
 
   getEdad() {
