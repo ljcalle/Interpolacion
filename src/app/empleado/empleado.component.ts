@@ -15,15 +15,16 @@ export class EmpleadoComponent {
   //edad = 18 
   edad = 18
 
-  //empresa = ""
+  empresa = ""
 
 
   getEdad() {
     return this.edad;
   }
-  /*
-  llamaEmpresa(value:String){
+
+  llamaEmpresa(value: String) {
+
   }
-*/
+
 
 }
